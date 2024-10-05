@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(images/AdobeStock_905779213_Preview-transformed.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.project-name{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+}
+header {
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.paragraph{
+    margin: 10px;
+    margin-top: 50px;
+    color: white;
+}
+.paragraph2{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+display: flex;
+align-items: center;
+padding: 10px;
+background-color: #f0f0f0;
+border-radius: 20px;
+width: 70%;
+}
+  
+.search-bar input {
+border: none;
+border-radius: 5px;
+padding: 5px;
+flex-grow: 1;
+background-color: #f0f0f0;
+outline: none;
+}
+  
+.search-bar button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.voice-search {
+    margin-left: 10px;
+    cursor: pointer;
+}
+  
+.voice-search i {
+    font-size: 20px;
+    color: #999;
+}
+
+
+
+.focus-areas {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    gap: 30px;
+}
+
+.focus-areas-top, .focus-areas-bottom {
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+
+.focus-areas button {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+  
+
